@@ -1,10 +1,10 @@
-import Link from "next/link";
 import React from "react";
+import { Link } from "react-router-dom";
+import "./AddProducts.css";
 
-const ProductDetails = () => {
+function AddProducts() {
   return (
-    <div>
-      {" "}
+    <div className="cart">
       <h1>Savatda hozircha bo'sh</h1>
       <p>
         Mahsulotlarni topish uchun katalogni ko'ring yoki qidiruvdan foydalaning
@@ -17,6 +17,6 @@ const ProductDetails = () => {
       </Link>
     </div>
   );
-};
+}
 
-export default ProductDetails;
+export default AddProducts;
